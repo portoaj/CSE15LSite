@@ -2,7 +2,7 @@
 ## Remote Access and the Filesystem
 
 1. ### Installing VS Code
-    - Type visual studio code into google and downlad it
+    - Download VSCode from [here](https://code.visualstudio.com/download)
     ![vscode google image](images/week2/1.png)
     - Follow the installation instructions
 2. ### Remotely Connecting
