@@ -30,12 +30,12 @@ java.lang.AssertionError: Link size was 2 expected size was 3
 The other implementation failed with the message:
 java.lang.AssertionError: Link size was 1 expected size was 3
 
-3. The third snippet should produce the following links: https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, and https://cse.ucsd.edu/
+3. The third snippet should produce the following link: https://ucsd-cse15l-w22.github.io/
 Both implementations failed for this test.
 My implementation failed with the message:
 Expected [https://www.twitter.com] but was [    https://www.twitter.com]
 The other implementation failed with the message:
-java.lang.AssertionError: Link size was 0 expected size was 3
+java.lang.AssertionError: Link size was 0 expected size was 1
 
 ### Possible code changes
 1. I think I could make a code change in less than 10 lines of code to prevent this issue. One solution would be to check for backticks between openbracket and closeparen.
